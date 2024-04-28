@@ -205,6 +205,7 @@ p {
 }
 
 .hero-button {
+  display: block;
   line-height: 1.5;
   background-color: #4d5ae5;
   letter-spacing: 0.04em;
@@ -240,11 +241,11 @@ p {
 .advant-list {
   display: flex;
   flex-direction: row;
-  flex-basis: calc((100% - 72px) / 4);
   gap: 24px;
 }
 
 .advant-item {
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .advant-item-header {
@@ -335,9 +336,9 @@ p {
   width: calc((100% - 48px) / 3);
 }
 .portfolio-item-id {
-  border-top: none;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .portfolio-item-header {
